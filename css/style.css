@@ -70,6 +70,129 @@ body {
   color: #ffffff;
 }
 
+.first-course {
+  margin-top: 9.875rem;
+  margin-bottom: 13.625rem;
+}
+
+.counter {
+  display: flex;
+  margin-top: 3.125rem;
+  padding: 0;
+  list-style: none;
+}
+
+.counter-list-item {
+  width: 102px;
+  margin-right: 1.875rem;
+  padding: 1.25rem 1.4375rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 140%;
+  background-color: rgba(18, 18, 18, 1);
+  color: #ffffff;
+}
+
+.list-item-style {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  opacity: 0.4;
+}
+
+.first-item {
+  border-top-left-radius: .625rem;
+  border-bottom-right-radius: .625rem;
+}
+
+.second-item {
+  border-top-right-radius: .625rem;
+  border-bottom-left-radius: .625rem;
+}
+
+.third-item {
+  border-radius: .625rem .625rem 0 0;
+}
+
+.fourth-item {
+  border-radius: 0 0 .625rem .625rem;
+}
+
+.first-course-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.statistics {
+  background-color: rgba(18, 18, 18, 1);
+}
+
+.statistics-container {
+  display: flex;
+  align-items: center;
+  padding: 2.25rem 1.5rem;
+}
+
+.order-course {
+  flex-shrink: 0;
+  margin-right: 5.0625rem;
+  min-width: 10.5625rem;
+  padding: .625rem 1.875rem;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border: none;
+  border-radius: 3.125rem;
+}
+
+.order-course-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.statistics-list {
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 5.0625rem;
+  grid-row-gap: .625rem;
+  list-style: none;
+  padding: 0;
+}
+
+.statistics-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.statistics-scale {
+  width: 44.625rem;
+  height: .375rem;
+  background-color: #ffffff;
+}
+
+.statistics-numbers {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.4;
+}
+
 @media (min-width: 992px) {
   .header-button:hover {
     cursor: pointer;
