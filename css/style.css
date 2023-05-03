@@ -222,6 +222,39 @@ body {
   margin-right: 1.875rem;
 }
 
+.what-are-we-doing {
+  margin-top: 12.5rem;
+}
+
+.wrapper-what-are-we-doing {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 8.6875rem;
+}
+
+.what-are-we-doing-info {
+  flex-basis: 50%;
+}
+
+.wrapper-picture {
+  position: relative;
+  width: 32.875rem;
+  height: 31.1875rem;
+  border: 1.875rem solid;
+  /* рисует изображение вокруг заданного элемента */
+  border-image: linear-gradient(94.78deg, #c89afc 11.19%, #7c6afa 93.72%);
+  /* делит изображение, заданное на области */
+  border-image-slice: 1;
+}
+
+.what-are-we-doing-picture {
+  position: absolute;
+  top: 6rem;
+  width: 29.1rem;
+  height: 27.875rem;
+}
+
 @media (min-width: 992px) {
   .header-button:hover {
     cursor: pointer;
