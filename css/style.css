@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(29, 26, 26);
 }
 
 .header {
@@ -224,17 +225,19 @@ body {
 
 .what-are-we-doing {
   margin-top: 12.5rem;
+  margin-bottom: 15.1875rem;
 }
 
 .wrapper-what-are-we-doing {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
   align-items: center;
   gap: 8.6875rem;
 }
 
 .what-are-we-doing-info {
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 
 .wrapper-picture {
@@ -244,15 +247,33 @@ body {
   border: 1.875rem solid;
   /* рисует изображение вокруг заданного элемента */
   border-image: linear-gradient(94.78deg, #c89afc 11.19%, #7c6afa 93.72%);
-  /* делит изображение, заданное на области */
+  /* делит изображение, заданное на области, хотя так и не понял как */
   border-image-slice: 1;
 }
 
 .what-are-we-doing-picture {
   position: absolute;
   top: 6rem;
-  width: 29.1rem;
+  left: 52.5px;
+  width: 22.5625rem;
   height: 27.875rem;
+}
+
+.what-are-we-doing-title {
+  margin-bottom: 2.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.what-are-we-doing-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #ffffff;
 }
 
 @media (min-width: 992px) {
@@ -313,5 +334,13 @@ body {
 
   .statistics-scale::before {
     width: 11.25rem;
+  }
+
+  .wrapper-what-are-we-doing {
+    flex-direction: column;
+  }
+
+  .what-are-we-doing-info {
+    width: 37.5rem;
   }
 }
